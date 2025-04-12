@@ -14,4 +14,49 @@ int main(){
     
     }
 
+#include<iostream>
+ 
+#include<algorithm>
+using namespace std;
+int main(){
+    string str="deep";
+      string ch=str;
+    //     reverse(ch.begin(),ch.end());
+    //     if (str == ch) {
+    //         cout << "It's a palindrome!" << endl;
+    //     } else {
+    //         cout << "Not a palindrome." << endl;
+    //     }
+    //     return 0;
+    
+   bool ispali=true;
+    int l=0;
+    int h=str.size()-1;
+    while(l<h){
+        if(str[l]!=str[h]){
+            cout<<"no";
+            break;
+        }
+             else{
+                l++;
+                h--;
+             }
+        }
+            // if(str[l]==str[h]){
+               
+            // }
+        
+
+          if(str==ch){
+            cout<<"yes";
+          }
+           
+        }
+
+    
+    
+    
+
+     
+
      
