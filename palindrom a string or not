@@ -1,0 +1,17 @@
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int main(){
+    string str="deed";
+     string ch=str;
+        reverse(ch.begin(),ch.end());
+        if (str == ch) {
+            cout << "It's a palindrome!" << endl;
+        } else {
+            cout << "Not a palindrome." << endl;
+        }
+        return 0;
+    
+    }
+
+     
